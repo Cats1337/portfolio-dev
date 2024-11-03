@@ -12,6 +12,11 @@
      pnpm run build
      ```
 
+
+> [!IMPORTANT]
+> ⚠️ Make sure to switch to **[portolfio](https://github.com/Cats1337/portfolio.git) Repository** ⚠️
+
+
 3. **Deploy to GitHub Pages**
    - Check out to the `gh-pages` branch (creates it if it doesn’t exist):
      ```bash
