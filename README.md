@@ -22,7 +22,7 @@
      ```bash
      git checkout gh-pages
      ```
-   - Drag `dist` folder into the repository:
+   - Drag `dist` folder into the repository and replace:
      ```bash
      git add dist
      git commit -m "Updating Portfolio"
