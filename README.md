@@ -32,8 +32,8 @@
      git subtree push --prefix dist origin gh-pages
      ```
 
-> [!NOTE] **Deploy to GitHub Pages First-Time**
->
+> [!NOTE] 
+> **Deploy to GitHub Pages First-Time**
 >   - Check out to the `gh-pages` branch (creates it if it doesn’t exist):
 >     ```bash
 >     git checkout -b gh-pages
