@@ -33,7 +33,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="xl:border-l-2 xl:border-r-2 xl:border-primary-400 h-full">
+        <div className="xl:border-l-2 xl:border-r-2 xl:border-primary-400 h-full cursor-pointer select-none">
           <div className="relative">
             {/* Always moving marquee row */}
             <MarqueeCards direction="left">
@@ -42,7 +42,7 @@ const Skills = () => {
 
             {/* Static display of additional skills with smooth reveal */}
             <div
-              className={`transition-all duration-500 ease-in-out overflow-hidden ${showMore ? "max-h-screen opacity-100" : "max-h-0 opacity-0"}`}
+              className={`transition-all duration-500 ease-in-out overflow-hidden scrollhide ${showMore ? "max-h-screen opacity-100 overflow-y-scroll" : "max-h-0 opacity-0"}`}
             >
               <div className="flex flex-col items-center mt-4">
                 <SkillsCards skills={additionalSkills} />

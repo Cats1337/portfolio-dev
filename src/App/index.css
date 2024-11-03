@@ -538,3 +538,9 @@ color: #fff;
 input:checked:focus + .switch-left + .switch-right {
 color: #333;
 }
+
+.scrollhide{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  --webikit-scrollbar-width: none;
+}

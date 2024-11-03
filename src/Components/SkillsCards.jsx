@@ -63,7 +63,7 @@ const SkillsCards = () => {
               repeatType: "loop",
               ease: "linear",
             }}
-            className="card m-1 w-[175px] h-[175px] flex flex-col items-center bg-primary-500 rounded-lg border-2 border-primary-400 cursor-pointer"
+            className="card m-1 w-[175px] h-[175px] flex flex-col items-center bg-primary-500 rounded-lg border-2 border-primary-400 cursor-default select-none"
           >
             <div className="w-full h-[50px] flex items-center gap-1 p-1 flex-col text-primary-200">
               <span className="capitalize text-[.65rem]">{skill.category}</span>
