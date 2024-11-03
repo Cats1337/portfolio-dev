@@ -1,5 +1,4 @@
 import NavBar from "../Components/nav/NavBar";
-import CatEyes from "../Components/CatEyes";
 import Hero from "../Pages/Hero";
 import Projects from "../Pages/Projects";
 import About from "../Pages/About";
@@ -10,7 +9,6 @@ function App() {
   return (
     <>
       <NavBar />
-      {/* <CatEyes /> */}
       <Hero />
       <About />
       <Projects />

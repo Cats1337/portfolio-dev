@@ -27,6 +27,9 @@ export default {
         950: '#5096E6', // dark blue
       },
     },
+    gridTemplateColumns: {
+      'grid-max': 'max-content',
+    },
   },
   plugins: [tailwindcss, autoprefixer],
 };
